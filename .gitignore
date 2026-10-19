@@ -1,0 +1,24 @@
+# --- Secrets / local-only config ---
+# config.json holds the Ark API key (plain-loop versions read it).
+# Keep it local; copy config.example.json instead.
+config.json
+.env
+*.env
+*.key
+
+# --- Broker report library ---
+# report_lib/ is chunked from a copyrighted broker PDF (开源证券·广汇能源研报).
+# Regenerate locally from your own PDF: python build_report_library.py <pdf>
+report_lib/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+{
+  "api_key": "ark-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "model": "doubao-seed-evolving",
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3"
+}
